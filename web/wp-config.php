@@ -167,6 +167,12 @@ if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
 		define( 'DISALLOW_FILE_MODS', true );
 	endif;
 
+	// Load and apply secrets
+	if ( file_exists( $_SERVER['HOME'] . '/files/private/secrets.json' ) ) {
+		$secrets_file = $_SERVER['HOME'] . '/files/private/secrets.json';
+		$secrets = json_decode( file_get_contents( $secrets_file ), 1 );
+	}
+
 endif;
 
 /*
