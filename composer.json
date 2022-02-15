@@ -20,6 +20,7 @@
     "pantheon-systems/wordpress-composer": "*",
     "roots/wp-password-bcrypt": "^1.0.0",
     "vlucas/phpdotenv": "^3.1.0",
+    "wpackagist-plugin/classic-editor": "^1.6",
     "wpackagist-plugin/lh-hsts": "^1.24",
     "wpackagist-plugin/pantheon-advanced-page-cache": ">=0.3.0",
     "wpackagist-plugin/wp-native-php-sessions": ">=0.6.9",
@@ -44,6 +45,11 @@
     "sort-packages": true,
     "platform": {
       "php": "7.3"
+    },
+    "allow-plugins": {
+      "composer/installers": true,
+      "johnpbloch/wordpress-core-installer": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
     }
   },
   "extra": {
