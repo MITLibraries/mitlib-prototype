@@ -167,10 +167,23 @@ if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
 		define( 'DISALLOW_FILE_MODS', true );
 	endif;
 
-	// Load and apply secrets
+	// Load and apply secrets. As more secrets are defined, their processing needs to be added here.
 	if ( file_exists( $_SERVER['HOME'] . '/files/private/secrets.json' ) ) {
 		$secrets_file = $_SERVER['HOME'] . '/files/private/secrets.json';
 		$secrets = json_decode( file_get_contents( $secrets_file ), 1 );
+
+		// WP Mail SMTP configuration
+		define( 'WPMS_ON', true );
+		define( 'WPMS_SMTP_USER', $secrets['wpms_smtp_user'] );
+		define( 'WPMS_SMTP_PASS', $secrets['wpms_smtp_pass'] );
+
+		// Sentry configuration
+		if ( array_key_exists( 'SENTRY_DSN', $secrets ) ) {
+			define( 'WP_SENTRY_DSN', $secrets['SENTRY_DSN'] );
+			define( 'WP_SENTRY_ERROR_TYPES', E_ERROR & E_CORE_ERROR & E_COMPILE_ERROR );
+			define( 'WP_SENTRY_VERSION', 'v1' );
+			define( 'WP_SENTRY_ENV', $_ENV['PANTHEON_ENVIRONMENT'] );
+		}
 	}
 
 endif;
