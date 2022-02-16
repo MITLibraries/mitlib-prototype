@@ -16,3 +16,16 @@ tooling available to you:
   * [Build Tools plugin](https://github.com/pantheon-systems/terminus-build-tools-plugin)
   * [Composer plugin](https://github.com/pantheon-systems/terminus-composer-plugin)
   * [Secrets plugin](https://github.com/pantheon-systems/terminus-secrets-plugin)
+
+## Environment variables / secrets
+
+The following environment variables need to be defined for the site to
+function as expected:
+
+`SENTRY_DNS` - The project key to route exception information to Sentry. See
+the configuration in `web/wp-config.php` for information on what errors are
+sent.
+
+`WPMS_SMTP_PASS` - The password for the account on the MIT email gateway
+
+`WPMS_SMTP_USER` - The username for the account on the MIT email gateway
