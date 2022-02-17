@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02628b9ebd0bc87bde55da6c5818c6f9",
+    "content-hash": "806eb1993939a7ad7ea4dfba04efdecf",
     "packages": [
         {
             "name": "composer/installers",
@@ -237,6 +237,36 @@
                 "issues": "https://github.com/MITLibraries/mitlib-secrets-widget/issues"
             },
             "time": "2020-03-18T19:07:53+00:00"
+        },
+        {
+            "name": "mjbernha/mitlib-tesseract",
+            "version": "v2.0.0-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matt-bernhardt/mitlib-tesseract.git",
+                "reference": "b487063fb6e51ed594251bd5f9056a0dc97a5420"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matt-bernhardt/mitlib-tesseract/zipball/b487063fb6e51ed594251bd5f9056a0dc97a5420",
+                "reference": "b487063fb6e51ed594251bd5f9056a0dc97a5420",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A parent theme for the Pentagram-designed branding of the MIT Libraries",
+            "support": {
+                "source": "https://github.com/matt-bernhardt/mitlib-tesseract/tree/v2.0.0-beta"
+            },
+            "time": "2022-02-17T21:17:15+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
@@ -6739,6 +6769,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "mjbernha/mitlib-tesseract": 10,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
