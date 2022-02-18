@@ -21,5 +21,5 @@ Feature: Change blogname and blogdescription
     Then I should be on the homepage
     And I should not be logged in
     And I take a Chrome screenshot "homepage-after-blogname-changes.png"
-    And I should see "Awesome WordHat Test Site!" in the ".site-title > a" element
-    And I should see "Composer + CI + Pantheon is a win!" in the ".site-description" element
+    And I should see "Awesome WordHat Test Site!" in the "div.header-section h1.child-page-title" element
+    And I should see "Composer + CI + Pantheon is a win!" in the "div.header-section p.child-tagline" element
