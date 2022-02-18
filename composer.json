@@ -50,8 +50,7 @@
     "wpackagist-plugin/wp-mail-smtp": "^3.2",
     "wpackagist-plugin/wp-native-php-sessions": ">=0.6.9",
     "wpackagist-plugin/wp-security-audit-log": "^4.3",
-    "wpackagist-plugin/wp-sentry-integration": "^4.13",
-    "wpackagist-theme/twentynineteen": "^1.2"
+    "wpackagist-plugin/wp-sentry-integration": "^4.13"
   },
   "require-dev": {
     "behat/mink-goutte-driver": "^1.2.1",
