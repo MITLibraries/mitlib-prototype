@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02628b9ebd0bc87bde55da6c5818c6f9",
+    "content-hash": "bf0a025a9f4bb6e4f35457493113cc34",
     "packages": [
         {
             "name": "composer/installers",
@@ -237,6 +237,66 @@
                 "issues": "https://github.com/MITLibraries/mitlib-secrets-widget/issues"
             },
             "time": "2020-03-18T19:07:53+00:00"
+        },
+        {
+            "name": "mjbernha/mitlib-cube",
+            "version": "v3.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matt-bernhardt/mitlib-cube.git",
+                "reference": "f45c9258e66883cee28cb59933017cc7ae362344"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matt-bernhardt/mitlib-cube/zipball/f45c9258e66883cee28cb59933017cc7ae362344",
+                "reference": "f45c9258e66883cee28cb59933017cc7ae362344",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A child theme for the Pentagram-designed branding of the MIT Libraries",
+            "support": {
+                "source": "https://github.com/matt-bernhardt/mitlib-cube/tree/v3.0.0-beta2"
+            },
+            "time": "2022-02-17T22:15:41+00:00"
+        },
+        {
+            "name": "mjbernha/mitlib-tesseract",
+            "version": "v2.0.0-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matt-bernhardt/mitlib-tesseract.git",
+                "reference": "b487063fb6e51ed594251bd5f9056a0dc97a5420"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matt-bernhardt/mitlib-tesseract/zipball/b487063fb6e51ed594251bd5f9056a0dc97a5420",
+                "reference": "b487063fb6e51ed594251bd5f9056a0dc97a5420",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A parent theme for the Pentagram-designed branding of the MIT Libraries",
+            "support": {
+                "source": "https://github.com/matt-bernhardt/mitlib-tesseract/tree/v2.0.0-beta"
+            },
+            "time": "2022-02-17T21:17:15+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
@@ -881,24 +941,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-sentry-integration/"
-        },
-        {
-            "name": "wpackagist-theme/twentynineteen",
-            "version": "1.9",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/twentynineteen/",
-                "reference": "1.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentynineteen.1.9.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0 || ~2.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/twentynineteen/"
         }
     ],
     "packages-dev": [
@@ -6739,6 +6781,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "mjbernha/mitlib-cube": 10,
+        "mjbernha/mitlib-tesseract": 10,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
