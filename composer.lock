@@ -329,16 +329,16 @@
         },
         {
             "name": "pantheon-systems/wordpress-composer",
-            "version": "5.9",
+            "version": "5.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-                "reference": "1585698460c09363172dff01b9be2af41f75280b"
+                "reference": "ebe1aaaf06e21a8b804daf4d67879af888725ccf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/1585698460c09363172dff01b9be2af41f75280b",
-                "reference": "1585698460c09363172dff01b9be2af41f75280b",
+                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/ebe1aaaf06e21a8b804daf4d67879af888725ccf",
+                "reference": "ebe1aaaf06e21a8b804daf4d67879af888725ccf",
                 "shasum": ""
             },
             "require": {
@@ -356,10 +356,10 @@
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
             "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.9",
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.9.1",
                 "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
             },
-            "time": "2022-01-26T00:11:10+00:00"
+            "time": "2022-02-22T18:11:08+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -2114,12 +2114,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Promise\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3642,12 +3642,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "1032f0ce78ed92e983c17697eafd202ac5cbbca4"
+                "reference": "6ba1494c9aaa556dc45e13eaab644a280ad76558"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/1032f0ce78ed92e983c17697eafd202ac5cbbca4",
-                "reference": "1032f0ce78ed92e983c17697eafd202ac5cbbca4",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/6ba1494c9aaa556dc45e13eaab644a280ad76558",
+                "reference": "6ba1494c9aaa556dc45e13eaab644a280ad76558",
                 "shasum": ""
             },
             "conflict": {
@@ -3690,7 +3690,7 @@
                 "codeigniter4/framework": "<4.1.8",
                 "codiad/codiad": "<=2.8.4",
                 "composer/composer": "<1.10.23|>=2-alpha.1,<2.1.9",
-                "concrete5/concrete5": "<8.5.5",
+                "concrete5/concrete5": "<9",
                 "concrete5/core": "<8.5.7",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/core": ">=2,<3.5.39",
@@ -3805,7 +3805,7 @@
                 "league/commonmark": "<0.18.3",
                 "league/flysystem": "<1.1.4|>=2,<2.1.1",
                 "lexik/jwt-authentication-bundle": "<2.10.7|>=2.11,<2.11.3",
-                "librenms/librenms": "<=21.11",
+                "librenms/librenms": "<22.2",
                 "limesurvey/limesurvey": "<3.27.19",
                 "livehelperchat/livehelperchat": "<=3.91",
                 "livewire/livewire": ">2.2.4,<2.2.6",
@@ -3872,7 +3872,7 @@
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
-                "pimcore/pimcore": "<=10.3",
+                "pimcore/pimcore": "<10.3.1",
                 "pocketmine/pocketmine-mp": "<4.0.7",
                 "pressbooks/pressbooks": "<5.18",
                 "prestashop/autoupgrade": ">=4,<4.10.1",
@@ -3923,7 +3923,7 @@
                 "simplito/elliptic-php": "<1.0.6",
                 "slim/slim": "<2.6",
                 "smarty/smarty": "<3.1.43|>=4,<4.0.3",
-                "snipe/snipe-it": "<=5.3.7",
+                "snipe/snipe-it": "<5.3.10",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "socialiteproviders/steam": "<1.1",
                 "spipu/html2pdf": "<5.2.4",
@@ -3987,7 +3987,7 @@
                 "topthink/thinkphp": "<=3.2.3",
                 "tribalsystems/zenario": "<8.8.53370",
                 "truckersmp/phpwhois": "<=4.3.1",
-                "twig/twig": "<1.38|>=2,<2.14.11|>3,<3.3.8",
+                "twig/twig": "<1.38|>=2,<2.14.11|>=3,<3.3.8",
                 "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.29|>=10,<10.4.19|>=11,<11.5",
                 "typo3/cms-backend": ">=7,<=7.6.50|>=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
                 "typo3/cms-core": ">=6.2,<=6.2.56|>=7,<=7.6.52|>=8,<=8.7.41|>=9,<9.5.29|>=10,<10.4.19|>=11,<11.5",
@@ -4080,7 +4080,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-15T01:00:26+00:00"
+            "time": "2022-02-17T14:18:41+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -6794,5 +6794,5 @@
     "platform-overrides": {
         "php": "7.3"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "1.1.0"
 }
