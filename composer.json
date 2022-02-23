@@ -10,11 +10,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/pantheon-systems/wordpress-composer"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/mitlibraries/mitlib-secrets-widget"
+      "url": "https://github.com/matt-bernhardt/mitlib-cube"
     },
     {
       "type": "vcs",
@@ -22,7 +18,11 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/matt-bernhardt/mitlib-cube"
+      "url": "https://github.com/mitlibraries/mitlib-secrets-widget"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/pantheon-systems/wordpress-composer"
     }
   ],
   "require": {
