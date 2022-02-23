@@ -18,6 +18,10 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/mitlibraries/mitlib-pull-hours"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/mitlibraries/mitlib-secrets-widget"
     },
     {
@@ -28,6 +32,7 @@
   "require": {
     "php": ">=7.3",
     "composer/installers": "^1.3.0",
+    "mitlibraries/mitlib-pull-hours": "^0.4.0",
     "mitlibraries/mitlib-secrets-widget": "^0.2.0",
     "mjbernha/mitlib-cube": "3.0.0-beta2",
     "mjbernha/mitlib-tesseract": "^2.0.0-beta",
