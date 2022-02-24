@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "89bbe3088b45f8e5191a9fd3a4b470c9",
+    "content-hash": "ebb95416a85febed91405a9bce9ac665",
     "packages": [
         {
             "name": "composer/installers",
@@ -763,6 +763,37 @@
                 "source": "https://github.com/johnpbloch/wordpress-core-installer/tree/master"
             },
             "time": "2020-04-16T21:44:57+00:00"
+        },
+        {
+            "name": "mitlibraries/mitlib-plugin-canary",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MITLibraries/mitlib-plugin-canary.git",
+                "reference": "a5264d651e4b83a7a23664b6ce0d6b335f6aec8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MITLibraries/mitlib-plugin-canary/zipball/a5264d651e4b83a7a23664b6ce0d6b335f6aec8b",
+                "reference": "a5264d651e4b83a7a23664b6ce0d6b335f6aec8b",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A WordPress plugin that detects when a site is using plugins that are not listed in the official directory",
+            "support": {
+                "source": "https://github.com/MITLibraries/mitlib-plugin-canary/tree/1.1.0",
+                "issues": "https://github.com/MITLibraries/mitlib-plugin-canary/issues"
+            },
+            "time": "2022-02-24T16:56:06+00:00"
         },
         {
             "name": "mitlibraries/mitlib-pull-hours",
