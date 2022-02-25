@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b32b66bef43455a0524447930b73bee",
+    "content-hash": "a37ada255cf40b49436254c633969a31",
     "packages": [
         {
             "name": "composer/installers",
@@ -915,30 +915,19 @@
         },
         {
             "name": "mjbernha/mitlib-tesseract",
-            "version": "v2.1.0",
+            "version": "v2.0.0-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matt-bernhardt/mitlib-tesseract.git",
-                "reference": "5f9270d4ee0b6b85db2b7d9ddde8a9c35e7ca219"
+                "reference": "b487063fb6e51ed594251bd5f9056a0dc97a5420"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matt-bernhardt/mitlib-tesseract/zipball/5f9270d4ee0b6b85db2b7d9ddde8a9c35e7ca219",
-                "reference": "5f9270d4ee0b6b85db2b7d9ddde8a9c35e7ca219",
+                "url": "https://api.github.com/repos/matt-bernhardt/mitlib-tesseract/zipball/b487063fb6e51ed594251bd5f9056a0dc97a5420",
+                "reference": "b487063fb6e51ed594251bd5f9056a0dc97a5420",
                 "shasum": ""
             },
-            "require-dev": {
-                "squizlabs/php_codesniffer": "^3.6",
-                "wp-coding-standards/wpcs": "^2.3"
-            },
             "type": "wordpress-theme",
-            "scripts": {
-                "lint": [
-                    "composer validate --no-check-publish --strict",
-                    "./vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
-                    "./vendor/bin/phpcs -psvn . --standard=codesniffer.full.xml"
-                ]
-            },
             "license": [
                 "GPL-3.0-only"
             ],
@@ -950,9 +939,61 @@
             ],
             "description": "A parent theme for the Pentagram-designed branding of the MIT Libraries",
             "support": {
-                "source": "https://github.com/matt-bernhardt/mitlib-tesseract/tree/v2.1.0"
+                "source": "https://github.com/matt-bernhardt/mitlib-tesseract/tree/v2.0.0-beta"
             },
-            "time": "2022-03-18T17:54:02+00:00"
+            "time": "2022-02-17T21:17:15+00:00"
+        },
+        {
+            "name": "mjbernha/vettel",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matt-bernhardt/vettel.git",
+                "reference": "f5f8eed5201271c3a1e12ecd83d4c2c69a4100c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matt-bernhardt/vettel/zipball/f5f8eed5201271c3a1e12ecd83d4c2c69a4100c1",
+                "reference": "f5f8eed5201271c3a1e12ecd83d4c2c69a4100c1",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpmd/phpmd": "^2.11",
+                "squizlabs/php_codesniffer": "^3.6",
+                "wp-coding-standards/wpcs": "^2.3"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Mjbernha\\Vettel\\": "src/"
+                }
+            },
+            "scripts": {
+                "lint": [
+                    "composer validate --no-check-publish --strict",
+                    "./vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
+                    "./vendor/bin/phpcs -i",
+                    "./vendor/bin/phpcs -psvn . --standard=codesniffer.full.xml"
+                ],
+                "mess": [
+                    "phpmd ./src text phpmd.xml --suffixes php"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A quick plugin to learn PSR-4 autoloading",
+            "support": {
+                "source": "https://github.com/matt-bernhardt/vettel/tree/0.2.0",
+                "issues": "https://github.com/matt-bernhardt/vettel/issues"
+            },
+            "time": "2022-02-25T22:06:14+00:00"
         },
         {
             "name": "monolog/monolog",
