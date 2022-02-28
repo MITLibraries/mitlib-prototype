@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be3d22e87540360094e3d5d147599da2",
+    "content-hash": "a514ee5aed3aa5e2e3e2b68a830b1332",
     "packages": [
         {
             "name": "composer/installers",
@@ -797,16 +797,16 @@
         },
         {
             "name": "mitlibraries/mitlib-pull-hours",
-            "version": "0.5.0-beta3",
+            "version": "0.5.0-beta4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MITLibraries/mitlib-pull-hours.git",
-                "reference": "b6b34e1cea812ca136a0b064d77777dd6575d534"
+                "reference": "da525ea953d4da80d2510852f220b0cd76532980"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MITLibraries/mitlib-pull-hours/zipball/b6b34e1cea812ca136a0b064d77777dd6575d534",
-                "reference": "b6b34e1cea812ca136a0b064d77777dd6575d534",
+                "url": "https://api.github.com/repos/MITLibraries/mitlib-pull-hours/zipball/da525ea953d4da80d2510852f220b0cd76532980",
+                "reference": "da525ea953d4da80d2510852f220b0cd76532980",
                 "shasum": ""
             },
             "require": {
@@ -842,10 +842,10 @@
             ],
             "description": "A WordPress plugin",
             "support": {
-                "source": "https://github.com/MITLibraries/mitlib-pull-hours/tree/0.5.0-beta3",
+                "source": "https://github.com/MITLibraries/mitlib-pull-hours/tree/0.5.0-beta4",
                 "issues": "https://github.com/MITLibraries/mitlib-pull-hours/issues"
             },
-            "time": "2022-02-28T16:47:34+00:00"
+            "time": "2022-02-28T21:24:58+00:00"
         },
         {
             "name": "mitlibraries/mitlib-secrets-widget",
