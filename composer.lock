@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a37ada255cf40b49436254c633969a31",
+    "content-hash": "be3d22e87540360094e3d5d147599da2",
     "packages": [
         {
             "name": "composer/installers",
@@ -797,24 +797,20 @@
         },
         {
             "name": "mitlibraries/mitlib-pull-hours",
-            "version": "0.5.0-beta2",
+            "version": "0.5.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MITLibraries/mitlib-pull-hours.git",
-                "reference": "403eb828a4672c34e77c262bfad45c18d8449026"
+                "reference": "b6b34e1cea812ca136a0b064d77777dd6575d534"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MITLibraries/mitlib-pull-hours/zipball/403eb828a4672c34e77c262bfad45c18d8449026",
-                "reference": "403eb828a4672c34e77c262bfad45c18d8449026",
+                "url": "https://api.github.com/repos/MITLibraries/mitlib-pull-hours/zipball/b6b34e1cea812ca136a0b064d77777dd6575d534",
+                "reference": "b6b34e1cea812ca136a0b064d77777dd6575d534",
                 "shasum": ""
             },
             "require": {
                 "google/apiclient": "^2.0"
-            },
-            "require-dev": {
-                "squizlabs/php_codesniffer": "^3.6",
-                "wp-coding-standards/wpcs": "^2.3"
             },
             "type": "wordpress-plugin",
             "extra": {
@@ -832,12 +828,11 @@
                     "Google_Task_Composer::cleanup"
                 ],
                 "post-update-cmd": [
-                    "Google_Task_Composer::cleanup",
-                    "composer dumpautoload -o"
+                    "Google_Task_Composer::cleanup"
                 ]
             },
             "license": [
-                "GPL-2.0-only"
+                "GPLv2"
             ],
             "authors": [
                 {
@@ -847,10 +842,10 @@
             ],
             "description": "A WordPress plugin",
             "support": {
-                "source": "https://github.com/MITLibraries/mitlib-pull-hours/tree/0.5.0-beta2",
+                "source": "https://github.com/MITLibraries/mitlib-pull-hours/tree/0.5.0-beta3",
                 "issues": "https://github.com/MITLibraries/mitlib-pull-hours/issues"
             },
-            "time": "2022-02-24T21:30:40+00:00"
+            "time": "2022-02-28T16:47:34+00:00"
         },
         {
             "name": "mitlibraries/mitlib-secrets-widget",
