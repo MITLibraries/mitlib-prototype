@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a514ee5aed3aa5e2e3e2b68a830b1332",
+    "content-hash": "2fdf8c5a988d9fb77e16ee5877cee514",
     "packages": [
         {
             "name": "composer/installers",
@@ -877,6 +877,37 @@
                 "issues": "https://github.com/MITLibraries/mitlib-secrets-widget/issues"
             },
             "time": "2020-03-18T19:07:53+00:00"
+        },
+        {
+            "name": "mitlibraries/wp-plugin-template",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MITLibraries/wp-plugin-template.git",
+                "reference": "6fa8792819a1468a300df82a5ed7fafd2d4b7aa4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MITLibraries/wp-plugin-template/zipball/6fa8792819a1468a300df82a5ed7fafd2d4b7aa4",
+                "reference": "6fa8792819a1468a300df82a5ed7fafd2d4b7aa4",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A WordPress plugin template",
+            "support": {
+                "source": "https://github.com/MITLibraries/wp-plugin-template/tree/1.1.0",
+                "issues": "https://github.com/MITLibraries/wp-plugin-template/issues"
+            },
+            "time": "2022-03-01T22:26:07+00:00"
         },
         {
             "name": "mjbernha/mitlib-cube",
@@ -4852,6 +4883,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "mitlibraries/mitlib-pull-hours": 10,
+        "mitlibraries/wp-plugin-template": 5,
         "mjbernha/mitlib-cube": 10,
         "mjbernha/mitlib-tesseract": 10,
         "roave/security-advisories": 20

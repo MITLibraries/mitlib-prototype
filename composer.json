@@ -34,6 +34,10 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/mitlibraries/wp-plugin-template"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/pantheon-systems/wordpress-composer"
     }
   ],
@@ -43,6 +47,7 @@
     "mitlibraries/mitlib-plugin-canary": "^1.1",
     "mitlibraries/mitlib-pull-hours": "0.5.0-beta4",
     "mitlibraries/mitlib-secrets-widget": "^0.2.0",
+    "mitlibraries/wp-plugin-template": "^1.1.0-rc1",
     "mjbernha/mitlib-cube": "3.0.0-beta2",
     "mjbernha/mitlib-tesseract": "2.0.0-beta",
     "mjbernha/vettel": "0.2",
