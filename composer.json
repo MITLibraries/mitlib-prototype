@@ -26,6 +26,10 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/mitlibraries/mitlib-analytics"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/mitlibraries/mitlib-plugin-canary"
     },
     {
@@ -53,6 +57,7 @@
     "php": ">=7.3",
     "composer/installers": "^1.3.0",
     "mitlibraries/custom-child-theme-post-types": "^1.1",
+    "mitlibraries/mitlib-analytics": "1.1.0-beta3",
     "mitlibraries/mitlib-plugin-canary": "^1.1",
     "mitlibraries/mitlib-pull-hours": "0.5.0-beta4",
     "mitlibraries/mitlib-secrets-widget": "^0.2.0",
