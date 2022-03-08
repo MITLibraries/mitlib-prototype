@@ -1,6 +1,6 @@
 {
-  "name": "pantheon-systems/example-wordpress-composer",
-  "description": "",
+  "name": "mitlibraries/mitlib-prototype",
+  "description": "A prototype WordPress application for evaluating Pantheon",
   "type": "project",
   "keywords": [],
   "repositories": [
