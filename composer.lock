@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb642c79044f37ded7d514716cb9b38c",
+    "content-hash": "6a90118b51479175642ca2aed3b63ac6",
     "packages": [
         {
             "name": "composer/installers",
@@ -210,6 +210,48 @@
                 "source": "https://github.com/johnpbloch/wordpress-core-installer/tree/master"
             },
             "time": "2020-04-16T21:44:57+00:00"
+        },
+        {
+            "name": "mitlibraries/mitlib-cf7-elements",
+            "version": "1.2.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MITLibraries/mitlib-cf7-elements.git",
+                "reference": "8b68a691b5d9f21d4950cac34a45297f4c40406e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MITLibraries/mitlib-cf7-elements/zipball/8b68a691b5d9f21d4950cac34a45297f4c40406e",
+                "reference": "8b68a691b5d9f21d4950cac34a45297f4c40406e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3.6",
+                "wp-coding-standards/wpcs": "^2.3"
+            },
+            "type": "wordpress-plugin",
+            "scripts": {
+                "lint": [
+                    "composer validate --no-check-publish --strict",
+                    "./vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
+                    "./vendor/bin/phpcs -psvn . --standard=codesniffer.full.xml"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A Wordpress plugin that provides custom field shortcodes to CF7",
+            "support": {
+                "source": "https://github.com/MITLibraries/mitlib-cf7-elements/tree/1.2.0-beta1",
+                "issues": "https://github.com/MITLibraries/mitlib-cf7-elements/issues"
+            },
+            "time": "2022-03-08T15:57:54+00:00"
         },
         {
             "name": "mitlibraries/mitlib-secrets-widget",
@@ -3549,6 +3591,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "mitlibraries/mitlib-cf7-elements": 10,
         "mjbernha/mitlib-cube": 10,
         "mjbernha/mitlib-tesseract": 10,
         "roave/security-advisories": 20
