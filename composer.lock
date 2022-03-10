@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93eba9f6647b14afce103fbb98432673",
+    "content-hash": "3371d867d896c673a91087d51ba2e6ae",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -244,6 +244,33 @@
                 "source": "https://github.com/johnpbloch/wordpress-core-installer/tree/master"
             },
             "time": "2020-04-16T21:44:57+00:00"
+        },
+        {
+            "name": "level-level/wp-cfm-acf",
+            "version": "0.2.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matt-bernhardt/wp-cfm-acf.git",
+                "reference": "7fa4d9f886353765f8295be674d1ff6a4de642fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matt-bernhardt/wp-cfm-acf/zipball/7fa4d9f886353765f8295be674d1ff6a4de642fd",
+                "reference": "7fa4d9f886353765f8295be674d1ff6a4de642fd",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "Extension to export ACF groups with WP-CFM",
+            "support": {
+                "source": "https://github.com/matt-bernhardt/wp-cfm-acf/tree/0.2.0-beta1"
+            },
+            "time": "2022-03-10T18:49:45+00:00"
         },
         {
             "name": "mitlibraries/mitlib-secrets-widget",
@@ -3579,6 +3606,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "level-level/wp-cfm-acf": 10,
         "mjbernha/mitlib-cube": 10,
         "mjbernha/mitlib-tesseract": 10,
         "roave/security-advisories": 20

@@ -27,12 +27,17 @@
     {
       "type": "vcs",
       "url": "https://github.com/matt-bernhardt/mitlib-cube"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/matt-bernhardt/wp-cfm-acf"
     }
   ],
   "require": {
     "php": ">=7.3",
     "advanced-custom-fields/advanced-custom-fields-pro": "^5.12",
     "composer/installers": "^1.3.0",
+    "level-level/wp-cfm-acf": "0.2.0-beta1",
     "mitlibraries/mitlib-secrets-widget": "^0.2.0",
     "mjbernha/mitlib-cube": "3.0.0-beta2",
     "mjbernha/mitlib-tesseract": "^2.0.0-beta",
