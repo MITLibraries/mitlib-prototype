@@ -274,16 +274,16 @@
         },
         {
             "name": "mjbernha/mitlib-tesseract",
-            "version": "v2.0.1-rc1",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matt-bernhardt/mitlib-tesseract.git",
-                "reference": "762870fa70fccdd05b4dacba9365f005c8cfd9d6"
+                "reference": "e185d2d3a3ab0ad80c8a45cd294a5f5498f88585"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matt-bernhardt/mitlib-tesseract/zipball/762870fa70fccdd05b4dacba9365f005c8cfd9d6",
-                "reference": "762870fa70fccdd05b4dacba9365f005c8cfd9d6",
+                "url": "https://api.github.com/repos/matt-bernhardt/mitlib-tesseract/zipball/e185d2d3a3ab0ad80c8a45cd294a5f5498f88585",
+                "reference": "e185d2d3a3ab0ad80c8a45cd294a5f5498f88585",
                 "shasum": ""
             },
             "require-dev": {
@@ -309,9 +309,9 @@
             ],
             "description": "A parent theme for the Pentagram-designed branding of the MIT Libraries",
             "support": {
-                "source": "https://github.com/matt-bernhardt/mitlib-tesseract/tree/v2.0.1-rc1"
+                "source": "https://github.com/matt-bernhardt/mitlib-tesseract/tree/v2.0.1"
             },
-            "time": "2022-03-17T17:50:33+00:00"
+            "time": "2022-03-17T19:15:39+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
