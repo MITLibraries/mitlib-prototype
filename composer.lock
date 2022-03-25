@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5a1160f5c127cd4941f48f3b1925c7b",
+    "content-hash": "9489509b4dade214745860eaa1818c0a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1045,19 +1045,30 @@
         },
         {
             "name": "mjbernha/mitlib-tesseract",
-            "version": "v2.0.0-beta",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matt-bernhardt/mitlib-tesseract.git",
-                "reference": "b487063fb6e51ed594251bd5f9056a0dc97a5420"
+                "reference": "5f9270d4ee0b6b85db2b7d9ddde8a9c35e7ca219"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matt-bernhardt/mitlib-tesseract/zipball/b487063fb6e51ed594251bd5f9056a0dc97a5420",
-                "reference": "b487063fb6e51ed594251bd5f9056a0dc97a5420",
+                "url": "https://api.github.com/repos/matt-bernhardt/mitlib-tesseract/zipball/5f9270d4ee0b6b85db2b7d9ddde8a9c35e7ca219",
+                "reference": "5f9270d4ee0b6b85db2b7d9ddde8a9c35e7ca219",
                 "shasum": ""
             },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3.6",
+                "wp-coding-standards/wpcs": "^2.3"
+            },
             "type": "wordpress-theme",
+            "scripts": {
+                "lint": [
+                    "composer validate --no-check-publish --strict",
+                    "./vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
+                    "./vendor/bin/phpcs -psvn . --standard=codesniffer.full.xml"
+                ]
+            },
             "license": [
                 "GPL-3.0-only"
             ],
@@ -1069,9 +1080,9 @@
             ],
             "description": "A parent theme for the Pentagram-designed branding of the MIT Libraries",
             "support": {
-                "source": "https://github.com/matt-bernhardt/mitlib-tesseract/tree/v2.0.0-beta"
+                "source": "https://github.com/matt-bernhardt/mitlib-tesseract/tree/v2.1.0"
             },
-            "time": "2022-02-17T21:17:15+00:00"
+            "time": "2022-03-18T17:54:02+00:00"
         },
         {
             "name": "mjbernha/vettel",
