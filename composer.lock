@@ -4,8 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3371d867d896c673a91087d51ba2e6ae",
+    "content-hash": "dc570178b30368fffd76e2f2b461ea9a",
     "packages": [
+        {
+            "name": "MITLibraries/wp-pending-posts",
+            "version": "1.1.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MITLibraries/wp-pending-posts.git",
+                "reference": "4961efcceca61cd3db483014b762f3a6cb6d58b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MITLibraries/wp-pending-posts/zipball/4961efcceca61cd3db483014b762f3a6cb6d58b1",
+                "reference": "4961efcceca61cd3db483014b762f3a6cb6d58b1",
+                "shasum": ""
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3.6",
+                "wp-coding-standards/wpcs": "^2.3"
+            },
+            "type": "wordpress-plugin",
+            "scripts": {
+                "lint": [
+                    "composer validate --no-check-publish --strict",
+                    "./vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
+                    "./vendor/bin/phpcs -psvn . --standard=codesniffer.full.xml"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "Displays a \"pending posts\" dashboard widget for admin users",
+            "support": {
+                "source": "https://github.com/MITLibraries/wp-pending-posts/tree/1.1.0-beta1",
+                "issues": "https://github.com/MITLibraries/wp-pending-posts/issues"
+            },
+            "time": "2022-03-04T17:14:45+00:00"
+        },
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
             "version": "5.12.1",
@@ -3607,6 +3649,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "level-level/wp-cfm-acf": 10,
+        "mitlibraries/wp-pending-posts": 10,
         "mjbernha/mitlib-cube": 10,
         "mjbernha/mitlib-tesseract": 10,
         "roave/security-advisories": 20
