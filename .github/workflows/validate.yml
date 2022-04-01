@@ -1,0 +1,21 @@
+name: Validate site setup
+on: push
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  composer_validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    # - name: Validate composer.json and composer.lock
+    #   run: composer validate --strict
+
+    - name: Install Composer dependencies
+      run: composer install --prefer-dist --no-progress --no-dev
+
+    - name: Check Platform Requirements
+      run: composer check-platform-reqs
