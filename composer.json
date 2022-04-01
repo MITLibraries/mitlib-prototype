@@ -46,6 +46,10 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/mitlibraries/wp-pending-posts"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/mitlibraries/wp-plugin-template"
     },
     {
@@ -62,6 +66,7 @@
     "mitlibraries/mitlib-pull-hours": "0.5.0-beta4",
     "mitlibraries/mitlib-secrets-widget": "^0.2.0",
     "mitlibraries/wp-multisearch-widget": "^1.6",
+    "mitlibraries/wp-pending-posts": "^1.1.0-beta2",
     "mitlibraries/wp-plugin-template": "^1.1.0-rc1",
     "mjbernha/mitlib-cube": "^3.0.0-beta2",
     "mjbernha/mitlib-tesseract": "^2.0.0-beta",

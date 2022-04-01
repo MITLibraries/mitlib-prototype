@@ -4,8 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9489509b4dade214745860eaa1818c0a",
+    "content-hash": "7d677a316d7a0c485eac046fec53b259",
     "packages": [
+        {
+            "name": "MITLibraries/wp-pending-posts",
+            "version": "1.1.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MITLibraries/wp-pending-posts.git",
+                "reference": "72cbfac640d88fe9787ab15cfa86f56439029616"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MITLibraries/wp-pending-posts/zipball/72cbfac640d88fe9787ab15cfa86f56439029616",
+                "reference": "72cbfac640d88fe9787ab15cfa86f56439029616",
+                "shasum": ""
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3.6",
+                "wp-coding-standards/wpcs": "^2.3"
+            },
+            "type": "wordpress-plugin",
+            "scripts": {
+                "lint": [
+                    "composer validate --no-check-publish --strict",
+                    "./vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
+                    "./vendor/bin/phpcs -psvn . --standard=codesniffer.full.xml"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "Displays a \"pending posts\" dashboard widget for admin users",
+            "support": {
+                "source": "https://github.com/MITLibraries/wp-pending-posts/tree/1.1.0-beta3",
+                "issues": "https://github.com/MITLibraries/wp-pending-posts/issues"
+            },
+            "time": "2022-04-01T20:36:38+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.12.0",
@@ -4999,6 +5041,7 @@
     "stability-flags": {
         "mitlibraries/mitlib-analytics": 10,
         "mitlibraries/mitlib-pull-hours": 10,
+        "mitlibraries/wp-pending-posts": 10,
         "mitlibraries/wp-plugin-template": 5,
         "mjbernha/mitlib-cube": 10,
         "mjbernha/mitlib-tesseract": 10,
