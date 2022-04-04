@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea47533020ad8118df8559f9ffe2822f",
+    "content-hash": "d190ffee4725ebbdc75d3c3beef04ee4",
     "packages": [
         {
             "name": "MITLibraries/wp-pending-posts",
@@ -344,6 +344,48 @@
                 "issues": "https://github.com/MITLibraries/mitlib-secrets-widget/issues"
             },
             "time": "2020-03-18T19:07:53+00:00"
+        },
+        {
+            "name": "mitlibraries/wp-home-page-news",
+            "version": "2.1.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MITLibraries/wp-home-page-news.git",
+                "reference": "7cc6a59fa2c89401a16ae22691df5e5b7e0bc634"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MITLibraries/wp-home-page-news/zipball/7cc6a59fa2c89401a16ae22691df5e5b7e0bc634",
+                "reference": "7cc6a59fa2c89401a16ae22691df5e5b7e0bc634",
+                "shasum": ""
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3.6",
+                "wp-coding-standards/wpcs": "^2.3"
+            },
+            "type": "wordpress-plugin",
+            "scripts": {
+                "lint": [
+                    "composer validate --no-check-publish --strict",
+                    "./vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
+                    "./vendor/bin/phpcs -psvn . --standard=codesniffer.full.xml"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A Wordpress admin widget to list news posts that are promoted to the front page",
+            "support": {
+                "source": "https://github.com/MITLibraries/wp-home-page-news/tree/2.1.0-beta1",
+                "issues": "https://github.com/MITLibraries/wp-home-page-news/issues"
+            },
+            "time": "2022-04-01T21:23:44+00:00"
         },
         {
             "name": "mjbernha/mitlib-cube",
@@ -3649,6 +3691,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "level-level/wp-cfm-acf": 10,
+        "mitlibraries/wp-home-page-news": 10,
         "mitlibraries/wp-pending-posts": 10,
         "mjbernha/mitlib-cube": 10,
         "mjbernha/mitlib-tesseract": 10,
