@@ -192,7 +192,7 @@ endif;
 * Define wp-content directory outside of WordPress core directory
 */
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
-define( 'WP_CONTENT_URL', WP_HOME . '/wp-content' );
+define( 'WP_CONTENT_URL', 'WP_HOME' . '/wp-content' );
 
 /**
  * WordPress Database Table prefix.

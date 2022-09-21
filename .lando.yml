@@ -1,0 +1,6 @@
+name: mitlib-prototype
+recipe: pantheon
+config:
+  framework: wordpress
+  site: mitlib-prototype
+  id: 6f00abf5-3d86-46ac-93c6-43eab1f5c8aa
